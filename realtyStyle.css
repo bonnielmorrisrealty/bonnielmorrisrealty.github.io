@@ -121,7 +121,7 @@ h1 {
   height: 39vw;
   min-height: 39vw;
   background-color: #fff;
-  background: rgba(0,50,64,0.2) url('adk.jpg') no-repeat 0 -100px / 100% auto;
+  background: rgba(0,50,64,0.2) url('/adk.jpg') no-repeat 0 -100px / 100% auto;
   background-attachment: fixed;
   font-family: 'Oswald', sans-serif;
   display: -webkit-box;
