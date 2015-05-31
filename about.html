@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<html>
+  <head>
+    <title>Bonnie L Morris Realty</title>
+    <meta charset="utf-8" />
+    <!--<meta name="google-site-verification" content="_vhipE3lETudh7cS8Q2RKYokPqes0ju_IxcpLD1CYi8" />-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name='description' content='Representing real estate buyers in the Adirondack Mountains and the Finger Lakes Region in upstate New York.' />
+    <meta property="og:type" content="website" />
+    <meta property='og:site_name' content='Bonnie L Morris Realty' />
+    <meta property='og:title' content='Bonnie L Morris Realty' />
+    <meta property='og:description' content='Representing real estate buyers in the Adirondack Mountains and the Finger Lakes Region in upstate New York.' />
+    <meta property='og:url' content='http://www.bonnielmorrisrealty.com/' />
+    <link rel="stylesheet" href="realtyStyle.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Droid+Sans|Oswald">
+  </head>
+  <body>
+    <div class="wrapper">
+        <nav>
+          <a href="/">
+          <h1>Bonnie L Morris</h1>
+          </a>
+          <ul class="nav-list">
+              <li class="nav-list-item"><a href="/about.html" id="about">About</a></li>
+              <li class="nav-list-item"><a href="/featured-rentals.html" id="featured-rentals">Featured Rentals</a></li>
+              <li class="nav-list-item"><a href="/contact.html" id="contact">Conact</a></li>
+          </ul>
+        </nav>
+      <div class="about-section">
+        <div class="image-section">
+          <img src="https://c2.staticflickr.com/6/5444/16918641393_395d1f95bf_o.jpg" width="400" height="425" alt="Bonnie Morris Profile image">
+        </div>
+        <div class="paragraph-section">
+          <h2 class="primary-header paragraph-section-header">37 years of full-time real estate experience</h2>
+          <p>I bring an extensive wealth of energy, experience, and market knowledge to my clients.</p>
+<p>
+Born and raised in Florida, I moved to Penn Yan in 1978 and began my career in Real Estate.   
+Shortly after, I founded Lake Valley Realty, one of largest real estate agencies in the Finger Lakes. 
+For 21 years I represented clients on Keuka, Senenca, Waneta, and Lamoka lakes.
+Additionally, I brokered over 200 farm sales to Mennonite families.  
+</p>
+<p>
+In 1998 I moved to Lake Placid in the Adirondack Mountains.
+I was hired by the Whiteface Club & Resort on 
+Lake Placid to produce the marketing plans, oversee legal documents, architectural design, construction, and 
+the sale of over 200 luxury homes, condominiums, and townhomes.    
+After the resort was sold in 2005, I opened a Boutique Brokerage. 
+I specialized in the resort/second home market.
+</p>
+<p>
+In 2006 I began my seasonal rental management busines. 
+I currently represent owners of 
+seasonal properties in the Adirondack Park.  
+ My business is full service, making it easier for owners. 
+ I oversee the rentals, which includes cleaning and maintenance.
+</p>
+<p>
+I have home bases and offices located in the Finger Lakes and the Adirondack Park.
+I love to travel in my RV, accompanied by my dog, Sami.
+</p>
+        </div>
+      </div>
+      <footer>
+        <article>
+          <p>about Bonnie</p>
+        </article>
+        <article>
+          <p>Featured Listings</p>
+        </article>
+        <article>
+          <p>Your form</p>
+        </article>
+      </footer>
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"></script>
+    <script type="text/javascript">
+      $( document ).ready( function (){
+        $("section").each(function() {
+          var tthis = $(this);
+          $(this).find('img').lazyload({
+              container: tthis
+          });
+      });
+      $("section").scroll(function() {
+        var tthis = $(this);
+          $(this).find('img').lazyload({
+            container: tthis
+          });
+        });
+      })
+    </script>
+  </body>
+</html>
