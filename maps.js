@@ -29,6 +29,50 @@ function initialize() {
       '<div><a href="https://www.google.com/maps/dir/Current+Location/44.312351,-74.004124">Directions</a></div>' +
       '</div>';
   }
+  else if (mapCanvas.dataset.map === "brookside-cabin") {
+    LatLngObj = {lat: 44.311574, lng: -74.004124};
+    contentString = '<div id="content">'+
+       '<div>352 Whiteface Inn Lane</div>' +
+      '<div>Whiteface Club &amp; Resort</div>' +
+      '<div>Lake Placid, NY 12946</div>' +
+      '<div><a href="https://www.google.com/maps/dir/Current+Location/44.311574,-74.003670">Directions</a></div>' +
+      '</div>';
+  }
+  else if (mapCanvas.dataset.map === "cozy-cone") {
+    LatLngObj = {lat: 44.311758, lng: -74.004124};
+    contentString = '<div id="content">'+
+       '<div>351 Whiteface Inn Lane</div>' +
+      '<div>Whiteface Club &amp; Resort</div>' +
+      '<div>Lake Placid, NY 12946</div>' +
+      '<div><a href="https://www.google.com/maps/dir/Current+Location/44.311758,-74.002847">Directions</a></div>' +
+      '</div>';
+  }
+  else if (mapCanvas.dataset.map === "owls-nest") {
+    LatLngObj = {lat: 44.314559, lng: -74.004940};
+    contentString = '<div id="content">'+
+       '<div>13 Overlook Way</div>' +
+      '<div>Whiteface Club &amp; Resort</div>' +
+      '<div>Lake Placid, NY 12946</div>' +
+      '<div><a href="https://www.google.com/maps/dir/Current+Location/44.314559,-74.004940">Directions</a></div>' +
+      '</div>';
+  }
+  else if (mapCanvas.dataset.map === "lakeside-16") {
+    LatLngObj = {lat: 44.312425, lng: -74.002874};
+    contentString = '<div id="content">'+
+       '<div>339 Whiteface Inn Lane</div>' +
+      '<div>Whiteface Club &amp; Resort</div>' +
+      '<div>Lake Placid, NY 12946</div>' +
+      '<div><a href="https://www.google.com/maps/dir/Current+Location/44.312425,-74.002874">Directions</a></div>' +
+      '</div>';
+  }
+  else if (mapCanvas.dataset.map === "balsams-townhome") {
+    LatLngObj = {lat: 44.266220, lng: -73.977010};
+    contentString = '<div id="content">'+
+       '<div>16 Rustic Way</div>' +
+      '<div>Lake Placid, NY 12946</div>' +
+      '<div><a href="https://www.google.com/maps/dir/Current+Location/44.266220,-73.977010">Directions</a></div>' +
+      '</div>';
+  }
   var mapOptions = {
     zoom: 16,
     center: LatLngObj,
