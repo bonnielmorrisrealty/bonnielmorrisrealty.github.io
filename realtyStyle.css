@@ -209,12 +209,12 @@ h1 {
   display: -webkit-flex;
   -webkit-align-items: center;
   height: 40px;
-  transition: all 1.5s ease-in-out
+  transition: all 1s ease-in-out
 }
 .previous-page:hover, .next-page:hover {
   transform: translate(0,-50%);
   -webkit-transform: translate(0,-50%);
-  transition: all 0.5s ease-in-out
+  transition: all 0.3s ease-in-out
 }
 .home-h2 {
   color: #000;
