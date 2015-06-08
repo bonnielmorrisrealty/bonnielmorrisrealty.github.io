@@ -77,10 +77,11 @@ h1 {
   margin: auto;
   min-height: 75px;
   display: flex;
-  flex-direction: row nowrap;
   align-items: center;
-  align-content: center;
   justify-content: center;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-justify-content: center;
   padding-left: 15px;
   padding-right: 15px;
   transition: all 0.6s ease-in-out;
@@ -539,7 +540,7 @@ text-align: center;
 }*/
 
 article {
-  flex: 1;
+  width: 33.333%;
   border-bottom: 1px solid #ccc;
   border-top: 1px solid #ccc;
   display: -webkit-flex;
@@ -550,7 +551,7 @@ article {
     flex-flow: column nowrap;
     background-color: #FCFFF5;
 }
-article p {
+article > p {
   text-align: left;
   line-height: 160%;
   padding: 10px;
@@ -603,8 +604,8 @@ footer {
   display: -webkit-flex;
     display: flex;
     justify-content: space-around;
-    -webkit-flex-flow: row nowrap;
-    flex-flow: row nowrap;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
     background-color: #575C49;
     color: #fff;
     padding: 10px 0;
@@ -692,6 +693,33 @@ textarea:focus {
   border-color: darkred;
 }
 @media screen and (max-width: 768px) {
+  header {
+    min-height: 350px
+  }
+  .hero {
+    background-size: cover;
+    min-height: 350px;
+    justify-content: flex-start;
+    -webkit-justify-content: flex-start;
+    background-position: 0 -50px
+  }
+  .primary-button {
+    font-size: 1.5em
+  }
+  .home-h2, h1 {
+    font-size: 2em
+  }
+  .primary-button, .home-h2 {
+    margin-top: 40px;
+  }
+  article {
+    width: 100%
+  }
+  article > p {
+    width: 90%;
+    margin: auto;
+    padding: 0
+  }
   .featured-info {
     width: 100%;
     padding: 0;
@@ -716,7 +744,62 @@ textarea:focus {
     text-align: center
   }
 }
+@media screen and (max-width: 568px) {
+  nav {
+    flex-flow: row wrap;
+    padding-left: 0
+  }
+  nav > a {
+    display: block;
+    margin: auto
+  }
+  h1 {
+    font-size: 2.5em;
+  }
+  .nav-list {
+    width: 100%;
+    justify-content: space-around;
+    -webkit-justify-content: space-around;
+  }
+  .nav-list-item > a {
+    min-height: 50px;
+    font-size: 0.9em
+  }
+  .featured-list > li {
+    width: 95%
+  }
+  .featured-list > li > a {
+    display: block
+  }
+  .featured-list > li > a > img {
+    max-height: 100%;
+    max-width: 100%;
+    height: auto
+  }
+  footer {
+    font-size: 0.9em
+  }
+  footer > p {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px
+  }
+  
+}
 @media screen and (max-width: 320px) {
+  .home-h2 {
+    font-size: 1.5em
+  }
+  .primary-button {
+    font-size: 1.3em
+  }
+  .primary-header {
+    font-size: 1.5em
+  }
+  article > p {
+    width: 98%;
+    font-size: 0.9em
+  }
   .featured-info > p {
     width: 97%;
     margin: 0 auto 10px auto;
