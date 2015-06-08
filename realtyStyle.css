@@ -40,8 +40,11 @@ nav {
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
-  align-content: center;
   justify-content: space-between;
+  display: -webkit-flex;
+  -webkit-flex-flow: row nowrap;
+  -webkit-align-items: center;
+  -webkit-justify-content: space-between;
   background-color: #FCFFF5;
   border-bottom: 4px solid #91BF8A;
   font-family: 'Oswald', sans-serif;
@@ -760,6 +763,7 @@ textarea:focus {
 @media screen and (max-width: 568px) {
   nav {
     flex-flow: row wrap;
+    -webkit-flex-flow: row wrap;
     padding-left: 0
   }
   nav > a {
