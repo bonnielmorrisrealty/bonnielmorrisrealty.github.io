@@ -736,13 +736,17 @@ textarea:focus {
     margin: auto;
     padding: 0
   }
+  .image-section {
+    width: 100%;
+    margin-top: 20px
+  }
   .featured-info {
     width: 100%;
     padding: 0;
     order: 1;
     -webkit-order: 1
   }
-  .featured-info > p {
+  .paragraph-section > p, .featured-info > p {
     width: 90%;
     margin: 0 auto 10px auto
   }
@@ -817,7 +821,7 @@ textarea:focus {
     width: 98%;
     font-size: 0.9em
   }
-  .featured-info > p {
+  .paragraph-section > p, .featured-info > p {
     width: 97%;
     margin: 0 auto 10px auto;
     font-size: 1em
