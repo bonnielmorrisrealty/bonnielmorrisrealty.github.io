@@ -61,6 +61,7 @@ h1 {
 }
 .nav-list {
   display: flex;
+  display: -webkit-flex;
   list-style: none;
   color: #003D5C;
   font-size: 1.2em;
@@ -350,19 +351,27 @@ h1 {
   margin: auto
 }
 h3 {
-  font: 1.7em 'PT Sans', sans-serif;
+  font: 3vw 'PT Sans', sans-serif;
   font-weight: 500;
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: row nowrap;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-justify-content: center;
   width: 100%;
   padding-top: 10px;
   color: #575C49;
 }
+h3::after {
+  padding-left: 2px 
+}
+h3::before {
+  padding-right: 2px
+}
 h3::after, h3::before {
   content: '';
-  height: 2px;
+  height: 1px;
   width: 10%;
   background-color: #003D5C
 }
@@ -547,8 +556,8 @@ article {
     display: flex;
     
     position: relative;
-    -webkit-flex-flow: column nowrap;
-    flex-flow: column nowrap;
+    -webkit-flex-flow: column wrap;
+    flex-flow: column wrap;
     background-color: #FCFFF5;
 }
 article > p {
@@ -714,6 +723,9 @@ textarea:focus {
   }
   article {
     width: 100%
+  }
+  h3 {
+    font-size: 1.5em
   }
   article > p {
     width: 90%;
