@@ -417,6 +417,7 @@ section {
   display: -webkit-flex;
     display: flex;
     align-content: center;
+    -webkit-align-content: center;
     position: relative;
     justify-content: center;
     -webkit-flex-flow: row wrap;
