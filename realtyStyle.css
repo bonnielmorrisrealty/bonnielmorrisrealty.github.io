@@ -759,6 +759,13 @@ textarea:focus {
     min-height: 50px;
     font-size: 0.9em
   }
+  .home-h2 {
+    font-size: 1.5em
+  }
+  .primary-button {
+    font-size: 1.3em;
+    padding: 10px
+  }
   .featured-list > li {
     width: 95%
   }
@@ -781,12 +788,6 @@ textarea:focus {
   
 }
 @media screen and (max-width: 320px) {
-  .home-h2 {
-    font-size: 1.5em
-  }
-  .primary-button {
-    font-size: 1.3em
-  }
   .primary-header {
     font-size: 1.5em
   }
