@@ -777,6 +777,20 @@ textarea:focus {
     max-width: 100%;
     height: auto
   }
+  .contact-list-input {
+    font-size: 1.5em;
+  }
+  .contact-list > li:nth-child(3), .contact-list > li:nth-child(4) {
+    width: 100%
+  }
+  .contact-list > li:first-child, .contact-list > li:nth-child(2) {
+    font-size: 1em;
+    width: 100%;
+    text-align: center;
+    line-height: 1.6;
+    margin: 0 auto 10px auto;
+    padding: 0 5px
+  }
   footer {
     font-size: 0.9em
   }
