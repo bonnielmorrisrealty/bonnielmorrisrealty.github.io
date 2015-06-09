@@ -581,7 +581,6 @@ strong {
 .lazyOwl {
   max-width: 100%;
   height: auto;
-  max-height: 422px;
   display: inline-block;
   text-align: center;
   cursor: -webkit-grab;
