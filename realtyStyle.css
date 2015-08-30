@@ -62,12 +62,19 @@ h1 {
   animation-iteration-count: 1;
   transition: all 0.6s ease-in-out;
 }
+.center-para {
+  font: 1em/1.6 'PT Sans', sans-serif;
+  color: rgb(105,105,105);
+  width: 55%;
+  margin: 0 auto 10px auto;
+  border-bottom: 1px solid DarkGreen
+}
 .nav-list {
   display: flex;
   display: -webkit-flex;
   list-style: none;
   color: #003D5C;
-  font-size: 1.2em;
+  font-size: 1.1em;
   -webkit-animation: slideIn 1.0s ease-in-out;
   animation: slideIn 1.0s ease-in-out;
   -webkit-animation-iteration-count: 1;
@@ -95,32 +102,24 @@ h1 {
   color: #FCFFF5
 }
 #home {
-  -webkit-animation: slideIn 0.5s ease-in-out;
-  animation: slideIn 0.5s ease-in-out;
-  -webkit-animation-iteration-count: 1;
-  -o-animation-iteration-count: 1;
-  animation-iteration-count: 1;
+  -webkit-animation: slideIn 0.4s ease-in-out 1;
+  animation: slideIn 0.4s ease-in-out 1;
 }
 #about {
-  -webkit-animation: slideIn 1.0s ease-in-out;
-  animation: slideIn 1.0s ease-in-out;
-  -webkit-animation-iteration-count: 1;
-  -o-animation-iteration-count: 1;
-  animation-iteration-count: 1;
+  -webkit-animation: slideIn 0.7s ease-in-out 1;
+  animation: slideIn 0.7s ease-in-out 1;
+}
+#for-sale {
+  -webkit-animation: slideIn 1s ease-in-out 1;
+  animation: slideIn 1s ease-in-out 1;
 }
 #featured-rentals {
-  -webkit-animation: slideIn 1.5s ease-in-out;
-  animation: slideIn 1.5s ease-in-out;
-  -webkit-animation-iteration-count: 1;
-  -o-animation-iteration-count: 1;
-  animation-iteration-count: 1;
+  -webkit-animation: slideIn 1.3s ease-in-out 1;
+  animation: slideIn 1.3s ease-in-out 1;
 }
 #contact {
-  -webkit-animation: slideIn 2s ease-in-out;
-  animation: slideIn 2s ease-in-out;
-  -webkit-animation-iteration-count: 1;
-  -o-animation-iteration-count: 1;
-  animation-iteration-count: 1;
+  -webkit-animation: slideIn 1.6s ease-in-out 1;
+  animation: slideIn 1.6s ease-in-out 1;
 }
 .hero {
   height: 39vw;
@@ -718,7 +717,7 @@ textarea:focus {
     order: 1;
     -webkit-order: 1
   }
-  .paragraph-section > p, .featured-info > p {
+  .paragraph-section > p, .featured-info > p, .center-para {
     width: 90%;
     margin: 0 auto 10px auto
   }
@@ -809,9 +808,8 @@ textarea:focus {
     width: 98%;
     font-size: 0.9em
   }
-  .paragraph-section > p, .featured-info > p {
+  .paragraph-section > p, .featured-info > p, .center-para {
     width: 97%;
-    margin: 0 auto 10px auto;
     font-size: 1em
   }
   #map-canvas {
