@@ -549,21 +549,51 @@ article i {
 strong {
   font-size: 1.15em
 }
+.owl-item > div {
+  position: relative
+}
+.full-size-anchor {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font: 1.2em 'PT Sans', sans-serif;
+  color: #fff;
+  padding: 10px;
+  background: rgba(0,0,0,0.5);
+  transform: translateY(-100%);
+  transition: transform 0.5s ease-in-out
+}
+.full-size-anchor::before {
+  content: "large image ";
+}
 .lazyOwl {
   max-width: 100%;
   height: auto;
   display: inline-block;
   text-align: center;
   cursor: -webkit-grab;
-  cursor: grab
+  cursor: grab;
+}
+.lazyOwl:hover + .full-size-anchor, .full-size-anchor:hover {
+  transform: translateY(0);
+  transition: transform 0.3s ease-in-out
+}
+.full-size-anchor:hover {
+  background: rgba(0,0,0,1);
+  color: #91BF8A;
+  transition: color, background 0.3s ease-in-out
+}
+.full-size-anchor:hover::before {
+  color: #fff;
 }
 .featured-info {
   width: 60%;
-  padding: 20px 60px 20px 20px
+  padding: 20px 60px 0 20px
 }
 .featured-breakdown {
   width: 40%;
-  padding: 20px 20px 20px 0
+  padding: 20px 20px 0 0
 }
 .featured-breakdown > p {
   line-height: 1.9;
@@ -585,15 +615,16 @@ strong {
 footer {
   width: 100%;
   display: -webkit-flex;
-    display: flex;
-    justify-content: space-around;
-    -webkit-justify-content: space-around;
-    -webkit-flex-flow: row wrap;
-    flex-flow: row wrap;
-    background-color: #575C49;
-    color: #fff;
-    padding: 10px 0;
-    font: 1.2em 'PT Serif', sans-serif;
+  display: flex;
+  justify-content: space-around;
+  -webkit-justify-content: space-around;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  background-color: #575C49;
+  color: #fff;
+  margin-top: 20px;
+  padding: 10px 0;
+  font: 1.2em 'PT Serif', sans-serif;
 }
 footer > a {
   color: #fff;
