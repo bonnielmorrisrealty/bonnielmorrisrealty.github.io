@@ -2,7 +2,9 @@ $(document).ready(function() {
 	(function(){
 		var isTouch = (('ontouchstart' in window) || (navigator.msMaxTouchPoints > 0));
 		if (isTouch) {
-			$(".featured-listing-figcaption").addClass("featured-listing-touch")
+			var featuredListingFigcaption = $(".featured-listing-figcaption");
+			featuredListingFigcaption.addClass("featured-listing-touch");
+			featuredListingFigcaption.find("p").addClass("featured-listing-para-touch")
 		}
 	}());
 });
