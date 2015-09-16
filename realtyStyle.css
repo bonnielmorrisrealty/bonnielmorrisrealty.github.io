@@ -338,28 +338,9 @@ h1 {
 }
 h3 {
   font: 2.5vw 'PT Sans', sans-serif;
-  font-weight: 500;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  display: -webkit-flex;
-  -webkit-align-items: center;
-  -webkit-justify-content: center;
-  width: 100%;
+  text-align: center;
   padding-top: 10px;
   color: #575C49;
-}
-h3::after {
-  padding-left: 2px 
-}
-h3::before {
-  padding-right: 2px
-}
-h3::after, h3::before {
-  content: '';
-  height: 1px;
-  width: 10%;
-  background-color: #003D5C
 }
 .primary-button {
   color: #FCFFF5;
@@ -538,7 +519,8 @@ article {
 article > p {
   text-align: left;
   line-height: 160%;
-  padding: 10px;
+  padding: 10px 20px;
+  color: rgb(55,55,55)
 }
 article i {
   color: #003D5C;
