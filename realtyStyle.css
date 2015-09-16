@@ -832,6 +832,12 @@ textarea:focus {
     width: 97%;
     font-size: 1em
   }
+.featured-listing-figcaption > p:first-child {
+  font-size: 1.3em;
+}
+.featured-listing-figcaption > p:not(:first-child) {
+  font-size: 1em
+}
   #map-canvas {
     width: 95%
   }
