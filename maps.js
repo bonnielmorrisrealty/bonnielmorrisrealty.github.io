@@ -12,10 +12,10 @@ function initialize() {
       '<div><a href="https://www.google.com/maps/dir/Current+Location/44.312425,-74.002874">Directions</a></div>' +
       '</div>';
   }
-  else if (mapCanvas.dataset.map === "haystack-way") {
+  else if (mapCanvas.dataset.map === "haystack-pines") {
     LatLngObj = {lat: 44.301413, lng: -74.015083};
     contentString = '<div id="content">'+
-      '<div>32 Haystack Way</div>' +
+      '<div>32 Haystack Pines</div>' +
       '<div>Lake Placid, NY 12946</div>' +
       '<div><a href="https://www.google.com/maps/dir/Current+Location/44.301413,-74.015083">Directions</a></div>' +
       '</div>';
