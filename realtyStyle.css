@@ -154,26 +154,27 @@ nav {
   -webkit-transform: translate(calc(-100% + 26px),-50%);
   left: 0;
 }
+.previous-page::after, .next-page::after {
+  padding: 5px;
+  max-height: 40px;
+  font-size: 2.5em;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
 .previous-page::after {
-   content: "\f053";
-   font-family: FontAwesome;
-   padding: 5px
+   content: "\2039";
 }
 .next-page::after, .previous-page::before {
   content: attr(data-title);
-  
+}
+.next-page::before {
+ content: "\203A";
 }
 .previous-page::before {
-  
   padding-left: 5px
 }
 .next-page::after {
   padding-right: 5px
-}
-.next-page::before {
- content: "\f054";
-   font-family: FontAwesome;
-   padding: 5px
 }
 .previous-page, .next-page {
   border-bottom-width: 2px;
