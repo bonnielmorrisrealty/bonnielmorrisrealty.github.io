@@ -836,7 +836,7 @@ textarea:focus {
 }
 @media screen and (max-width: 320px) {
   .hero {
-    background-position: 0 50%
+    background-position: 0 -200px
   }
   .primary-header {
     font-size: 1.2em
