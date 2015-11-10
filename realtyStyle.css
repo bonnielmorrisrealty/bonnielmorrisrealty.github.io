@@ -27,7 +27,8 @@ body {
   -webkit-justify-content: space-between
 }
 .header-home {
-  min-height: 100vh;
+  height: 100vh;
+  max-height: 750px;
   display: -webkit-flex;
   display: flex;
   -webkit-flex-flow: column nowrap;
@@ -115,6 +116,7 @@ nav {
 .hero {
   -webkit-flex: 1 1 auto;
   flex: 1 1 auto;
+  max-height: 750px;
   background-color: #fff;
   background: rgba(0,50,64,0.2) url('adk.jpg') no-repeat 0 -100px;
   background-attachment: fixed;
