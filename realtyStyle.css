@@ -181,6 +181,7 @@ nav {
   border-top-width: 2px;
   border-style: solid;
   border-color: #575C49;
+  overflow: hidden;
   color: #003D5C;
   font: 1.2em 'PT Sans', sans-serif;
   position: absolute;
@@ -189,7 +190,6 @@ nav {
   align-items: center;
   display: -webkit-flex;
   -webkit-align-items: center;
-  height: 40px;
   transition: all 1s ease-in-out
 }
 .previous-page:hover, .next-page:hover {
