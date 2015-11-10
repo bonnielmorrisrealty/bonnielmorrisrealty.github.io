@@ -154,7 +154,7 @@ nav {
   -webkit-transform: translate(calc(-100% + 26px),-50%);
   left: 0;
 }
-.previous-page::after, .next-page::after {
+.previous-page::after, .next-page::before {
   padding: 5px;
   max-height: 40px;
   font-size: 2.5em;
