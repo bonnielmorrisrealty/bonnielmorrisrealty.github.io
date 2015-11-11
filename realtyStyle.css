@@ -1,3 +1,4 @@
+
 *, *::after, *::before {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -19,9 +20,9 @@ body {
   min-height: 100%;
   display: flex;
   display: -webkit-flex;
-  flex-flow: column wrap;
+  flex-flow: column nowrap;
   /*column wrap works better on IOS*/
-  -webkit-flex-flow: column wrap;
+  -webkit-flex-flow: column nowrap;
   /*this is the key to keeping elements such as the nav at the top and the footer at the bottom.*/
   justify-content: space-between;
   -webkit-justify-content: space-between
@@ -519,7 +520,6 @@ text-align: center;
 .quantize figure img:hover {
   transform: scale(1.02);
 }
-
 @media all and (max-width: 900px) {
   .quantize { width: 100%; }
 }*/
@@ -900,6 +900,7 @@ textarea:focus {
       opacity: 1;
       -webkit-transform: translateX(0);
     }
+}
  @keyframes slideIn {
     0%{
       opacity: 0;
