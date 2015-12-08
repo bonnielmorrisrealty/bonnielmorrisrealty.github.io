@@ -12,8 +12,9 @@ html, body {
   width: 100%;
 }
 body {
-  max-width: 1300px;
+  max-width: 1600px;
   position: relative;
+  margin: 0 auto;
 }
 .wrapper {
    /*fill all possible height with the wrapper*/
