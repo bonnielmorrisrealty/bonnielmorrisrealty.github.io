@@ -12,7 +12,8 @@ html, body {
   width: 100%;
 }
 body {
-  max-width: 1300px;
+  max-width: 1500px;
+  margin: 0 auto;
   position: relative;
 }
 .wrapper {
