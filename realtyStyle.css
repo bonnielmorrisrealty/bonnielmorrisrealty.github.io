@@ -13,8 +13,12 @@ html, body {
 }
 body {
   max-width: 1500px;
+<<<<<<< HEAD
   margin: 0 auto;
+=======
+>>>>>>> origin/master
   position: relative;
+  margin: 0 auto;
 }
 .wrapper {
    /*fill all possible height with the wrapper*/
