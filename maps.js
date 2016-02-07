@@ -99,6 +99,14 @@ function initialize() {
       '<div><a href="https://www.google.com/maps/dir/Current+Location/44.312937,-74.002791">Directions</a></div>' +
       '</div>';
   }
+  else if (mapCanvas.dataset.map === "camp-brady") {
+    LatLngObj = {lat: 44.31324, lng: -74.002692};
+    contentString = '<div id="content">'+
+       '<div>Whiteface Club &amp; Resort</div>' +
+      '<div>Lake Placid, NY 12946</div>' +
+      '<div><a href="https://www.google.com/maps/dir/Current+Location/44.31324,-74.002692">Directions</a></div>' +
+      '</div>';
+  }
   var mapOptions = {
     zoom: 16,
     center: LatLngObj,
