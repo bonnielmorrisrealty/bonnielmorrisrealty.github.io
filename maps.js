@@ -108,6 +108,14 @@ function initialize() {
       '<div><a href="https://www.google.com/maps/dir/Current+Location/44.31324,-74.002692">Directions</a></div>' +
       '</div>';
   }
+  else if (mapCanvas.dataset.map === "camp-tarshish") {
+    LatLngObj = {lat: 44.117374, lng: -73.427161};
+    contentString = '<div id="content">'+
+      '<div>106 Presbury Point Rd</div>' +
+      '<div>Westport, NY 12993</div>' +
+      '<div><a href="https://www.google.com/maps/dir/Current+Location/44.117374,-73.427161">Directions</a></div>' +
+      '</div>';
+  }
   var mapOptions = {
     zoom: 16,
     center: LatLngObj,
