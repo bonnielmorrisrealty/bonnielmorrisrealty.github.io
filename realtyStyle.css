@@ -1,6 +1,5 @@
 
 *, *::after, *::before {
-  -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   margin: 0;
@@ -120,7 +119,7 @@ nav {
   flex: 1 1 auto;
   max-height: 750px;
   background-color: #fff;
-  background: rgba(0,50,64,0.2) url('https://farm1.staticflickr.com/573/23159933610_296815571e_h.jpg') no-repeat 0 -200px;
+  background: rgba(0,50,64,0.2) url('https://farm4.staticflickr.com/3872/14822268518_d8341acccd_h.jpg') no-repeat 0 -200px;
   background-attachment: fixed;
   font-family: 'Oswald', sans-serif;
   display: -webkit-flex;
