@@ -100,12 +100,12 @@ function initialize() {
       '</div>';
   }
   else if (mapCanvas.dataset.map === "camp-brady") {
-    LatLngObj = {lat: 44.31324, lng: -74.002692};
+    LatLngObj = {lat: 44.311574, lng: -74.003670};
     contentString = '<div id="content">'+
-      '<div>329 Whiteface Inn Ln.</div>' +
+      '<div>352 Whiteface Inn Ln.</div>' +
        '<div>Whiteface Club &amp; Resort</div>' +
       '<div>Lake Placid, NY 12946</div>' +
-      '<div><a href="https://www.google.com/maps/dir/Current+Location/44.31324,-74.002692">Directions</a></div>' +
+      '<div><a href="https://www.google.com/maps/dir/Current+Location/44.311574,-74.003670">Directions</a></div>' +
       '</div>';
   }
   else if (mapCanvas.dataset.map === "camp-tarshish") {
