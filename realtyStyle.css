@@ -42,6 +42,13 @@ header {
 a {
   text-decoration: none
 }
+.generic-anchor {
+  color: #8DB9ED;
+  transition: color 0.3s ease-in-out;
+}
+.generic-anchor:hover {
+  color: #1F6FCE;
+}
 nav {
   display: flex;
   flex-flow: row nowrap;
