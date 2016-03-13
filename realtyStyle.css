@@ -74,7 +74,7 @@ nav {
   font: 1em/1.6 'PT Sans', sans-serif;
   color: rgb(105,105,105);
   width: 55%;
-  margin: 0 auto 10px auto;
+  margin: 0 auto 15px auto;
   border-bottom: 1px solid DarkGreen
 }
 .nav-list {
@@ -239,9 +239,14 @@ nav {
   text-align: center;
   width: 100%
 }
-.featured-header {
+.featured-header, .section-header {
   line-height: 1;
+}
+.featured-header {
   margin-top: 20px;
+}
+.section-header {
+  margin-bottom: 20px
 }
 .featured-list {
   display: flex;
@@ -392,6 +397,9 @@ h3 {
   background-color: #91BF8A;
   color: #FCFFF5;
   transition: all 0.3s ease-in-out;
+}
+.stand-alone-anchor {
+  font-size: 2.5em;
 }
 section {
   width: 100%;
@@ -626,15 +634,12 @@ footer > a {
   color: #fff;
 }
 main {
-    align-items: center;
-  -webkit-align-items: center;
-  /*this will fill up the remaining space for our content*/
-  flex: 1;
-  -webkit-flex: 1;
-  text-align: center;
+  -webkit-flex: 1 1 auto;
+  flex: 1 1 auto;
 }
 form {
-  width: 100%
+  width: 100%;
+  text-align: center;
 }
 .contact-list {
   display: flex;
@@ -644,18 +649,19 @@ form {
   list-style: none
 }
 .contact-list > li {
-  margin: 10px auto
+  margin-bottom: 20px;
+  width: 100%
 }
 .contact-list > li:first-child {
-  width: 100%;
   color: rgb(155,155,155);
-  font-size: 1.5em
+  font-size: 1.5em;
+  margin-top: 20px;
 }
 .contact-list > li:nth-child(2), .contact-list > li:nth-child(3) {
   width: 50%;
 }
-.contact-list > li:nth-child(4) {
-  width: 100%
+.contact-list > li:last-child {
+  margin-bottom: 0
 }
 input, textarea, .submit-button {
   border-radius: 0;
@@ -716,6 +722,9 @@ textarea:focus {
   .hero {
     background-size: cover;
     background-position: 0 0
+  }
+  .featured-header {
+    line-height: normal
   }
   .primary-button, .home-header, .site-name {
     font-size: 1.5em
@@ -789,7 +798,7 @@ textarea:focus {
     font-size: 0.9em;
     padding: 10px 0
   }
-  .home-header, .primary-header {
+  .home-header, .primary-header, .stand-alone-anchor {
     font-size: 1.5em
   }
   .primary-button {
