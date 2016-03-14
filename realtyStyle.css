@@ -781,7 +781,7 @@ textarea:focus {
   }
   .site-name {
     font-size: 2em;
-    margin: auto
+    text-align: center;
   }
   .nav-list {
     width: 100%;
