@@ -701,7 +701,8 @@ textarea:focus {
     padding-left: 10px
   }
   .nav-list {
-    font-size: 0.9em
+    font-size: 0.9em;
+    margin-left: 0;
   }
   .hero {
     background-size: cover;
