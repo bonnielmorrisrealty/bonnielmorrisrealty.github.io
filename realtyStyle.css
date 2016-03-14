@@ -853,7 +853,7 @@ textarea:focus {
     font-size: 0.9em
   }
   .paragraph-section > p, .featured-info > p, .center-para {
-    width: 97%;
+    width: 95%;
     font-size: 1em
   }
 .featured-listing-figcaption > p:first-child {
