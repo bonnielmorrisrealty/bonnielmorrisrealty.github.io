@@ -401,19 +401,11 @@ h3 {
 .stand-alone-anchor {
   font-size: 2.5em;
 }
-section {
-  width: 100%;
-  background-color: #fff;
-  display: -webkit-flex;
-  display: flex;
-  align-content: center;
-  -webkit-align-content: center;
+.info-section {
   position: relative;
-  justify-content: center;
+  overflow: hidden;
   -webkit-flex-flow: row wrap;
   flex-flow: row wrap;
-  text-align: left;
-  overflow: hidden;
 }
 section:nth-of-type(2) i, section:nth-of-type(4) i {
   color: #003D5C;
@@ -463,8 +455,6 @@ text-align: center;
   padding: 10px
 }
 .content-section, .paragraph-section, .about-section {
-  flex: 1;
-  -webkit-flex: 1;
   display: flex;
   display: -webkit-flex;
   width: 100%;
@@ -526,7 +516,8 @@ text-align: center;
 }*/
 
 article {
-  width: 33.333%;
+  -webkit-flex: 1 1 0;
+  flex: 1 1 0;
   border-bottom: 1px solid #ccc;
   border-top: 1px solid #ccc;
   display: -webkit-flex;
@@ -542,12 +533,6 @@ article > p {
   line-height: 160%;
   padding: 10px 20px;
   color: rgb(55,55,55)
-}
-article i {
-  color: #003D5C;
-  margin-left: 15px;
-  margin-top: 10px;
-  position: absolute;
 }
 strong {
   font-size: 1.15em
@@ -732,18 +717,18 @@ textarea:focus {
     margin-top: 40px;
   }
   article {
-    width: 100%
+    -webkit-flex: 1 1 auto;
+    flex: 1 1 auto;
   }
   h3 {
     font-size: 1.5em
   }
   article > p {
-    width: 90%;
     margin: auto;
-    padding: 0
+    padding: 10px
   }
   .image-section {
-    width: 100%;
+    width: 100%
   }
   .featured-info {
     width: 100%;
@@ -751,8 +736,15 @@ textarea:focus {
     order: 1;
     -webkit-order: 1
   }
+  .content-section {
+    -webkit-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+  }
   .paragraph-section {
-    padding: 0
+    padding: 0;
+    width: 100%;
+    -webkit-order: 1;
+    order: 1;
   }
   .paragraph-section > p, .featured-info > p, .center-para {
     width: 90%;
@@ -834,6 +826,10 @@ textarea:focus {
   .image-section {
     padding: 20px 20px 0 20px
   }
+  .featured-breakdown > p {
+    font-size: 1.1em;
+    width: 98%;
+  }
   footer {
     font-size: 0.9em
   }
@@ -869,10 +865,7 @@ textarea:focus {
   #map-canvas {
     width: 95%
   }
-  .featured-breakdown > p {
-    font-size: 1.1em;
-    width: 98%;
-  }
+  
 }
 @-webkit-keyframes slideIn {
     0%{
