@@ -116,6 +116,14 @@ function initialize() {
       '<div><a href="https://www.google.com/maps/dir/Current+Location/44.117374,-73.427161">Directions</a></div>' +
       '</div>';
   }
+  else if (mapCanvas.dataset.map === "cummings-road-complex") {
+    LatLngObj = {lat: 44.281072, lng: -73.987814};
+    contentString = '<div id="content">'+
+      '<div>52 Cummings Rd</div>' +
+      '<div>Lake Placid, NY 12946</div>' +
+      '<div><a href="https://www.google.com/maps/dir/Current+Location/44.281072,-73.987814">Directions</a></div>' +
+      '</div>';
+  }
   var mapOptions = {
     zoom: 16,
     center: LatLngObj,
