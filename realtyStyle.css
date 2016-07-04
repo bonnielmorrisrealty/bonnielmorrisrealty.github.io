@@ -125,6 +125,10 @@ nav {
   -webkit-flex: 1 1 auto;
   flex: 1 1 auto;
   max-height: 750px;
+  width: 100%;
+  position: relative;
+}
+.hero-home {
   background-color: #fff;
   background: rgba(0,50,64,0.2) url('https://farm4.staticflickr.com/3665/18839893335_0e4a5dcd0d_h.jpg') no-repeat 0 -200px;
   background-attachment: fixed;
@@ -139,9 +143,7 @@ nav {
   align-content: center;
   -webkit-align-items: center;
   align-items: center;
-  width: 100%;
   text-align: center;
-  position: relative;
 }
 .header-wrapper {
   width: 100%;
@@ -704,7 +706,7 @@ textarea:focus {
     font-size: 0.9em;
     margin-left: 0;
   }
-  .hero {
+  .hero-home {
     background-size: cover;
     background-position: 0 0
   }
@@ -841,7 +843,7 @@ textarea:focus {
   
 }
 @media screen and (max-width: 320px) {
-  .hero {
+  .hero-home {
     background-position: 30% -550px
   }
   .primary-header {
