@@ -52,6 +52,9 @@ button {
 .generic-anchor:hover {
   color: #1F6FCE;
 }
+.text-align-center {
+  text-align: center;
+}
 nav {
   display: -webkit-flex;
   display: flex;
@@ -401,7 +404,7 @@ h3 {
   transition: all 0.3s ease-in-out;
 }
 .stand-alone-anchor {
-  font-size: 2.5em;
+  font-size: 2em;
 }
 .info-section {
   position: relative;
@@ -618,6 +621,65 @@ footer {
 }
 footer > a {
   color: #fff;
+}
+.footer-social-wrapper {
+  width: 100%;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-around;
+  -webkit-justify-content: space-around;
+  -webkit-align-items: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.footer-social-wrapper-single {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.footer-social-wrapper-single > h4 {
+  margin-right: 20px;
+}
+.clip {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+.svg--source {
+  display: none;
+}
+.svg--icon {
+  width: 100%;
+  max-width: 5rem;
+  height: 100%;
+  max-height: 5rem;
+  display: block;
+  margin: 0 auto;
+  fill: currentColor;
+}
+.share {
+  color: #fff;
+  border: .125rem solid #fff;
+  transition: 0.3s;
+}
+.share:hover, .share:focus {
+  background: #f1f1f1;
+  border-color: #333;
+}
+.share:focus {
+  outline-color: inherit;
+}
+.youtube:hover, .youtube:focus {
+  color: #cd201f;
+}
+.facebook:hover, .facebook:focus {
+  color: #3b5998;
 }
 main {
   -webkit-flex: 1 1 auto;
