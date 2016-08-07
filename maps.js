@@ -124,6 +124,14 @@ function initialize() {
       '<div><a href="https://www.google.com/maps/dir/Current+Location/44.281072,-73.987814">Directions</a></div>' +
       '</div>';
   }
+  else if (mapCanvas.dataset.map === "morningside-lodge") {
+    LatLngObj = {lat: 44.282313, lng: -73.979047};
+    contentString = '<div id="content">'+
+      '<div>20 Dunn Way, #45</div>' +
+      '<div>Lake Placid, NY 12946</div>' +
+      '<div><a href="https://www.google.com/maps/dir/Current+Location/44.282313,-73.979047">Directions</a></div>' +
+      '</div>';
+  }
   var mapOptions = {
     zoom: 16,
     center: LatLngObj,
