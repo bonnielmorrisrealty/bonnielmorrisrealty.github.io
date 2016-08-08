@@ -640,6 +640,8 @@ footer > a {
 }
 .footer-social-wrapper-single > h4 {
   margin-right: 20px;
+  text-align: center;
+  font-weight: normal;
 }
 .clip {
   border: 0;
@@ -901,7 +903,22 @@ textarea:focus {
     text-align: center;
     margin-bottom: 10px
   }
-  
+  .footer-social-wrapper {
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-top: 0;
+  }
+  .footer-social-wrapper-single {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .share {
+    margin-right: auto;
+  }
+  .footer-social-wrapper-single > h4 {
+    text-align: right;
+    width: 50%;
+  }
 }
 @media screen and (max-width: 320px) {
   .hero-home {
