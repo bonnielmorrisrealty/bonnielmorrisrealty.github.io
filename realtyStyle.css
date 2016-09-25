@@ -66,6 +66,8 @@ nav {
 }
 .site-title {
   position: relative;
+  display: -webkit-flex;
+  display: flex;
   font-size: 1em;
   -webkit-animation: headIn 1.0s ease-in-out;
   animation: headIn 1.0s ease-in-out;
@@ -76,20 +78,21 @@ nav {
 }
 .site-title__name {
   color: #8DB9ED;
-  font-size: 2em;
+  font-size: 2.1em;
   padding-bottom: 0.25em;
 }
 .site-title__description {
-  position: relative;
   color: #575C49;
   font-size: 0.9em;
 }
 .site-title__icon {
-  position: absolute;
-  right: -0.8em;
-  bottom: 0.25em;
   font-size: 2.7em;
   color: brown;
+  display: inherit;
+  -webkit-align-items: flex-end;
+  align-items: flex-end;
+  -webkit-transform: translateX(-0.1em);
+  transform: translateX(-0.1em);
 }
 .center-para {
   font: 1em/1.6 'PT Sans', sans-serif;
