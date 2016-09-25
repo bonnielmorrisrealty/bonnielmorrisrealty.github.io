@@ -64,14 +64,31 @@ nav {
   padding-left: 20px;
   width: 100%
 }
-.site-name {
-  color: #575C49;
-  font-size: 3vw;
+.site-title {
+  position: relative;
+  font-size: 1em;
   -webkit-animation: headIn 1.0s ease-in-out;
   animation: headIn 1.0s ease-in-out;
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
-  padding: 10px 0
+  padding: 10px 0;
+  line-height: 1;
+}
+.site-title__name {
+  color: #8DB9ED;
+  font-size: 2em;
+  padding-bottom: 0.25em;
+}
+.site-title__description {
+  position: relative;
+  color: #575C49;
+  font-size: 0.9em;
+}
+.site-title__icon {
+  position: absolute;
+  right: -0.8em;
+  bottom: 0.25em;
+  font-size: 2.7em;
 }
 .center-para {
   font: 1em/1.6 'PT Sans', sans-serif;
