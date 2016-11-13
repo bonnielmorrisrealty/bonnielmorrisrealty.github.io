@@ -950,9 +950,6 @@ textarea:focus {
   }
 }
 @media screen and (max-width: 320px) {
-  .site-title {
-    font-size: 0.8em;
-  }
   .hero-home {
     background-position: 30% -550px
   }
