@@ -787,8 +787,11 @@ textarea:focus {
   nav {
     padding-left: 10px
   }
+  .site-title {
+    font-size: 0.8em;
+  }
   .nav-list {
-    font-size: 0.9em;
+    font-size: 0.85em;
   }
   .hero-home {
     background-size: cover;
@@ -854,9 +857,14 @@ textarea:focus {
 }
 @media screen and (max-width: 568px) {
   nav {
-    flex-flow: column nowrap;
-    -webkit-flex-flow: column nowrap;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-justify-content: center;
+    justify-content: center;
     padding-left: 0
+  }
+  .site-title {
+    font-size: 1em;
   }
   .nav-list {
     font-size: 1.1em
@@ -942,6 +950,9 @@ textarea:focus {
   }
 }
 @media screen and (max-width: 320px) {
+  .site-title {
+    font-size: 0.8em;
+  }
   .hero-home {
     background-position: 30% -550px
   }
