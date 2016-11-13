@@ -10,7 +10,7 @@ function initialize() {
       '<div>339 Whiteface Inn Lane</div>' +
       '<div>Whiteface Club &amp; Resort</div>' +
       '<div>Lake Placid, NY 12946</div>' +
-      '<div><a href="https://www.google.com/maps/dir/Current+Location/44.312425,-74.002874">Directions</a></div>' +
+      '<div><a target="_blank" href="https://www.google.com/maps/dir/Current+Location/44.312425,-74.002874">Directions</a></div>' +
       '</div>';
   }
   else if (mapData === "haystack-pines") {
@@ -18,7 +18,7 @@ function initialize() {
     contentString = '<div id="content">'+
       '<div>32 Haystack Pines</div>' +
       '<div>Lake Placid, NY 12946</div>' +
-      '<div><a href="https://www.google.com/maps/dir/Current+Location/44.301413,-74.015083">Directions</a></div>' +
+      '<div><a target="_blank" href="https://www.google.com/maps/dir/Current+Location/44.301413,-74.015083">Directions</a></div>' +
       '</div>';
   }
   else if (mapData === "dierview-brookhill") {
@@ -27,7 +27,7 @@ function initialize() {
        '<div>316 Whiteface Inn Lane</div>' +
       '<div>Whiteface Club &amp; Resort</div>' +
       '<div>Lake Placid, NY 12946</div>' +
-      '<div><a href="https://www.google.com/maps/dir/Current+Location/44.312351,-74.004124">Directions</a></div>' +
+      '<div><a target="_blank" href="https://www.google.com/maps/dir/Current+Location/44.312351,-74.004124">Directions</a></div>' +
       '</div>';
   }
   else if (mapData === "brookside-cabin") {
@@ -36,7 +36,7 @@ function initialize() {
        '<div>352 Whiteface Inn Lane</div>' +
       '<div>Whiteface Club &amp; Resort</div>' +
       '<div>Lake Placid, NY 12946</div>' +
-      '<div><a href="https://www.google.com/maps/dir/Current+Location/44.311574,-74.003670">Directions</a></div>' +
+      '<div><a target="_blank" href="https://www.google.com/maps/dir/Current+Location/44.311574,-74.003670">Directions</a></div>' +
       '</div>';
   }
   else if (mapData === "cozy-cone") {
@@ -45,7 +45,7 @@ function initialize() {
        '<div>351 Whiteface Inn Lane</div>' +
       '<div>Whiteface Club &amp; Resort</div>' +
       '<div>Lake Placid, NY 12946</div>' +
-      '<div><a href="https://www.google.com/maps/dir/Current+Location/44.311758,-74.002847">Directions</a></div>' +
+      '<div><a target="_blank" href="https://www.google.com/maps/dir/Current+Location/44.311758,-74.002847">Directions</a></div>' +
       '</div>';
   }
   else if (mapData === "owls-nest") {
@@ -54,7 +54,7 @@ function initialize() {
        '<div>13 Overlook Way</div>' +
       '<div>Whiteface Club &amp; Resort</div>' +
       '<div>Lake Placid, NY 12946</div>' +
-      '<div><a href="https://www.google.com/maps/dir/Current+Location/44.314559,-74.004940">Directions</a></div>' +
+      '<div><a target="_blank" href="https://www.google.com/maps/dir/Current+Location/44.314559,-74.004940">Directions</a></div>' +
       '</div>';
   }
   else if (mapData === "lakeside-16") {
@@ -63,7 +63,7 @@ function initialize() {
        '<div>339 Whiteface Inn Lane</div>' +
       '<div>Whiteface Club &amp; Resort</div>' +
       '<div>Lake Placid, NY 12946</div>' +
-      '<div><a href="https://www.google.com/maps/dir/Current+Location/44.312425,-74.002874">Directions</a></div>' +
+      '<div><a target="_blank" href="https://www.google.com/maps/dir/Current+Location/44.312425,-74.002874">Directions</a></div>' +
       '</div>';
   }
   else if (mapData === "balsams-townhome") {
@@ -71,7 +71,7 @@ function initialize() {
     contentString = '<div id="content">'+
        '<div>16 Rustic Way</div>' +
       '<div>Lake Placid, NY 12946</div>' +
-      '<div><a href="https://www.google.com/maps/dir/Current+Location/44.266220,-73.977010">Directions</a></div>' +
+      '<div><a target="_blank" href="https://www.google.com/maps/dir/Current+Location/44.266220,-73.977010">Directions</a></div>' +
       '</div>';
   }
   else if (mapData === "sandbrook") {
@@ -80,7 +80,7 @@ function initialize() {
        '<div>22 Hemlock Way</div>' +
        '<div>Whiteface Club &amp; Resort</div>' +
       '<div>Lake Placid, NY 12946</div>' +
-      '<div><a href="https://www.google.com/maps/dir/Current+Location/44.311867,-74.005353">Directions</a></div>' +
+      '<div><a target="_blank" href="https://www.google.com/maps/dir/Current+Location/44.311867,-74.005353">Directions</a></div>' +
       '</div>';
   }
   else if (mapData === "knollwood-cabin") {
@@ -88,7 +88,7 @@ function initialize() {
     contentString = '<div id="content">'+
        '<div>Whiteface Club &amp; Resort</div>' +
       '<div>Lake Placid, NY 12946</div>' +
-      '<div><a href="https://www.google.com/maps/dir/Current+Location/44.279491,-73.979871">Directions</a></div>' +
+      '<div><a target="_blank" href="https://www.google.com/maps/dir/Current+Location/44.279491,-73.979871">Directions</a></div>' +
       '</div>';
   }
   else if (mapData === "lakeside-9") {
@@ -97,7 +97,7 @@ function initialize() {
        '<div>331 Whiteface Inn Ln.</div>' +
        '<div>Whiteface Club &amp; Resort</div>' +
       '<div>Lake Placid, NY 12946</div>' +
-      '<div><a href="https://www.google.com/maps/dir/Current+Location/44.312937,-74.002791">Directions</a></div>' +
+      '<div><a target="_blank" href="https://www.google.com/maps/dir/Current+Location/44.312937,-74.002791">Directions</a></div>' +
       '</div>';
   }
   else if (mapData === "camp-brady") {
@@ -106,7 +106,7 @@ function initialize() {
       '<div>352 Whiteface Inn Ln.</div>' +
        '<div>Whiteface Club &amp; Resort</div>' +
       '<div>Lake Placid, NY 12946</div>' +
-      '<div><a href="https://www.google.com/maps/dir/Current+Location/44.311574,-74.003670">Directions</a></div>' +
+      '<div><a target="_blank" href="https://www.google.com/maps/dir/Current+Location/44.311574,-74.003670">Directions</a></div>' +
       '</div>';
   }
   else if (mapData === "camp-tarshish") {
@@ -114,7 +114,7 @@ function initialize() {
     contentString = '<div id="content">'+
       '<div>106 Presbury Point Rd</div>' +
       '<div>Westport, NY 12993</div>' +
-      '<div><a href="https://www.google.com/maps/dir/Current+Location/44.117374,-73.427161">Directions</a></div>' +
+      '<div><a target="_blank" href="https://www.google.com/maps/dir/Current+Location/44.117374,-73.427161">Directions</a></div>' +
       '</div>';
   }
   else if (mapData === "cummings-road-complex") {
@@ -122,7 +122,7 @@ function initialize() {
     contentString = '<div id="content">'+
       '<div>52 Cummings Rd</div>' +
       '<div>Lake Placid, NY 12946</div>' +
-      '<div><a href="https://www.google.com/maps/dir/Current+Location/44.281072,-73.987814">Directions</a></div>' +
+      '<div><a target="_blank" href="https://www.google.com/maps/dir/Current+Location/44.281072,-73.987814">Directions</a></div>' +
       '</div>';
   }
   else if (mapData === "morningside-lodge") {
@@ -130,7 +130,7 @@ function initialize() {
     contentString = '<div id="content">'+
       '<div>20 Dunn Way, #42</div>' +
       '<div>Lake Placid, NY 12946</div>' +
-      '<div><a href="https://www.google.com/maps/dir/Current+Location/44.282313,-73.979047">Directions</a></div>' +
+      '<div><a target="_blank" href="https://www.google.com/maps/dir/Current+Location/44.282313,-73.979047">Directions</a></div>' +
       '</div>';
   }
   else if (mapData === "hemlock-way") {
@@ -139,7 +139,7 @@ function initialize() {
       '<div>Whiteface Club & Resort</div>' +
       '<div>4 Hemlock Way #7</div>' +
       '<div>Lake Placid, NY 12946</div>' +
-      '<div><a href="https://www.google.com/maps/dir/Current+Location/44.311668,-74.006866">Directions</a></div>' +
+      '<div><a target="_blank" href="https://www.google.com/maps/dir/Current+Location/44.311668,-74.006866">Directions</a></div>' +
       '</div>';
   }
   else if (mapData === "morning-moose-lodge") {
@@ -147,7 +147,7 @@ function initialize() {
     contentString = '<div id="content">'+
       '<div>20 Dunn Way, #45</div>' +
       '<div>Lake Placid, NY 12946</div>' +
-      '<div><a href="https://www.google.com/maps/dir/Current+Location/44.282313,-73.979047">Directions</a></div>' +
+      '<div><a target="_blank" href="https://www.google.com/maps/dir/Current+Location/44.282313,-73.979047">Directions</a></div>' +
       '</div>';
   }
   var mapOptions = {
