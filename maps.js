@@ -142,7 +142,7 @@ function initialize() {
       '<div><a href="https://www.google.com/maps/dir/Current+Location/44.311668,-74.006866">Directions</a></div>' +
       '</div>';
   }
-  else if (mapData === "morningside-moose-lodge") {
+  else if (mapData === "morning-moose-lodge") {
     LatLngObj = {lat: 44.282313, lng: -73.979047};
     contentString = '<div id="content">'+
       '<div>20 Dunn Way, #45</div>' +
