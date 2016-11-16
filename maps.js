@@ -1,6 +1,6 @@
 $(document).ready(function() {
-function initialize() {
   var mapCanvas = document.getElementById('map-canvas');
+function initialize() {
   var LatLngObj;
   var contentString = '';
   var mapData = mapCanvas.dataset.map;
