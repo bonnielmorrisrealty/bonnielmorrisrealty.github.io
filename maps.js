@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  var mapData = document.getElementById('map-canvas').dataset.map;
+  mapData = document.getElementById('map-canvas').dataset.map;
 function initialize() {
   var LatLngObj;
   var contentString = '';
