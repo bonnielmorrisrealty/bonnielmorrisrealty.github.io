@@ -1,9 +1,8 @@
 $(document).ready(function() {
-  var mapCanvas = document.getElementById('map-canvas');
 function initialize() {
   var LatLngObj;
   var contentString = '';
-  var mapData = mapCanvas.dataset.map;
+  var mapData = document.getElementById('map-canvas').dataset.map;
   if (mapData === "lakeside-29") {
     LatLngObj = {lat: 44.312425, lng: -74.002874};
     contentString = '<div id="content">'+
