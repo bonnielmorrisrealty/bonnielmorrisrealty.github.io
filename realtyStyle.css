@@ -1,6 +1,4 @@
-
 *, *::after, *::before {
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -16,14 +14,11 @@ body {
   margin: 0 auto;
 }
 .wrapper {
-   /*fill all possible height with the wrapper*/
   min-height: 100%;
   display: flex;
   display: -webkit-flex;
   flex-flow: column nowrap;
-  /*column wrap works better on IOS*/
   -webkit-flex-flow: column nowrap;
-  /*this is the key to keeping elements such as the nav at the top and the footer at the bottom.*/
   justify-content: space-between;
   -webkit-justify-content: space-between
 }
@@ -58,7 +53,7 @@ button {
 nav {
   display: -webkit-flex;
   display: flex;
-  background-color: #FCFFF5;
+  background: #FCFFF5;
   border-bottom: 4px solid #91BF8A;
   font-family: 'Oswald', sans-serif;
   padding-left: 20px;
@@ -121,7 +116,7 @@ nav {
   animation: slideIn ease-in-out 1 forwards;
 }
 .nav-list-item > a:hover {
-  background-color: #91BF8A;
+  background: #91BF8A;
   color: #FCFFF5;
   transition: all 0.3s ease-in-out;
 }
@@ -197,7 +192,7 @@ nav {
   transform: translateY(-50%);
 }
 .previous-page::after {
-   content: "\2039";
+  content: "\2039";
 }
 .next-page::after, .previous-page::before {
   content: attr(data-title);
@@ -373,14 +368,14 @@ nav {
   border-top: 2px solid #91BF8A;
   position: absolute;
   left: 50%;
-  transform: translateX(-50%) scaleX(0.5);
   -webkit-transform: translateX(-50%) scaleX(0.5);
+  transform: translateX(-50%) scaleX(0.5);
   transition: transform 1.5s ease-in-out
 }
 .featured-listing-figcaption:hover::before,
 .featured-listing-figcaption:hover::after {
-  transform: translateX(-50%) scaleX(1);
   -webkit-transform: translateX(-50%) scaleX(1);
+  transform: translateX(-50%) scaleX(1);
   transition: transform 1s ease-in-out 0.5s
 }
 .featured-listing-figcaption::before {
@@ -407,7 +402,7 @@ h3 {
   outline: 0;
   border: 4px solid #FCFFF5;
   font: 3.0vw 'PT Sans', sans-serif;
-  background-color: rgba(0,0,0,0.5);
+  background: rgba(0,0,0,0.5);
   -webkit-animation: buttonIn 1.5s ease-in-out 1;
   animation: buttonIn 1.5s ease-in-out 1;
   transition: all 0.7s ease-in-out;
@@ -415,12 +410,12 @@ h3 {
   margin: 0
 }
 .primary-button:active {
-  transform: scale(0.9);
   -webkit-transform: scale(0.9);
+  transform: scale(0.9);
   transition: transform 0.1s ease-in-out;
 }
 .primary-button:hover {
-  background-color: #91BF8A;
+  background: #91BF8A;
   color: #FCFFF5;
   transition: all 0.3s ease-in-out;
 }
@@ -463,10 +458,9 @@ figure img {
 figure:hover {
     z-index: 5
 }
-
 figure figcaption {
-text-align: center;
-  background-color: rgba(0,0,0,0.75);
+  text-align: center;
+  background: rgba(0,0,0,0.75);
   position: relative;
   z-index: 0;
   color: white;
@@ -547,12 +541,11 @@ article {
   border-bottom: 1px solid #ccc;
   border-top: 1px solid #ccc;
   display: -webkit-flex;
-    display: flex;
-    
-    position: relative;
-    -webkit-flex-flow: column wrap;
-    flex-flow: column wrap;
-    background-color: #FCFFF5;
+  display: flex;
+  position: relative;
+  -webkit-flex-flow: column wrap;
+  flex-flow: column wrap;
+  background: #FCFFF5;
 }
 article > p {
   text-align: left;
@@ -713,10 +706,10 @@ form {
   text-align: center;
 }
 .contact-list {
-  display: flex;
   display: -webkit-flex;
-  flex-flow: row wrap;
+  display: flex;
   -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
   list-style: none
 }
 .contact-list > li {
@@ -775,7 +768,6 @@ textarea:focus {
   transition: all 0.5s ease-in-out;
   border: 4px solid #046380;
   background: #fff;
-  
 }
 .contact-list-input:invalid, .contact-list-input:focus:invalid, textarea:invalid {
   border-color: darkred;
@@ -843,11 +835,10 @@ textarea:focus {
   .featured-breakdown {
     width: 100%;
     padding: 10px;
+    display: -webkit-flex;
     display: flex;
-    display: -webkit-flex;
+    -webkit-flex-flow: row wrap;
     flex-flow: row wrap;
-    display: -webkit-flex;
-    -webkit-flex-flow: row wrap
   }
   .featured-breakdown > p {
     font-size: 1em;
@@ -879,8 +870,8 @@ textarea:focus {
   }
   .nav-list {
     width: 100%;
-    justify-content: space-around;
     -webkit-justify-content: space-around;
+    justify-content: space-around;
   }
   .nav-list-item > a {
     font-size: 0.9em;
@@ -915,22 +906,22 @@ textarea:focus {
     text-align: center;
     line-height: 1.6;
     margin: 0 auto 10px auto;
-    padding: 0 5px
+    padding: 0 5px;
   }
   .image-section {
-    padding: 20px 20px 0 20px
+    padding: 20px 20px 0 20px;
   }
   .featured-breakdown > p {
     font-size: 1.1em;
     width: 98%;
   }
   footer {
-    font-size: 0.9em
+    font-size: 0.9em;
   }
   footer > p {
     width: 100%;
     text-align: center;
-    margin-bottom: 10px
+    margin-bottom: 10px;
   }
   .footer-social-wrapper {
     -webkit-flex-wrap: wrap;
@@ -951,7 +942,7 @@ textarea:focus {
 }
 @media screen and (max-width: 320px) {
   .hero-home {
-    background-position: 30% -550px
+    background-position: 30% -550px;
   }
   .primary-header {
     font-size: 1.2em;
@@ -963,18 +954,17 @@ textarea:focus {
   }
   .paragraph-section > p, .featured-info > p, .center-para {
     width: 95%;
+    font-size: 1em;
+  }
+  .featured-listing-figcaption > p:first-child {
+    font-size: 1.3em;
+  }
+  .featured-listing-figcaption > p:not(:first-child) {
     font-size: 1em
   }
-.featured-listing-figcaption > p:first-child {
-  font-size: 1.3em;
-}
-.featured-listing-figcaption > p:not(:first-child) {
-  font-size: 1em
-}
   #map-canvas {
     width: 95%
   }
-  
 }
 @-webkit-keyframes slideIn {
     0%{
@@ -1046,4 +1036,3 @@ textarea:focus {
       transform: translateX(0);
     }
 }
-
