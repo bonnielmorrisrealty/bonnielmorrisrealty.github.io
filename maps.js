@@ -157,6 +157,14 @@ function initialize() {
       '<div><a target="_blank" href="https://www.google.com/maps/dir/Current+Location/ 44.308283,-74.009827">Directions</a></div>' +
       '</div>';
   }
+  else if (mapCanvas.dataset.map === "balsams-townhome-3") {
+    LatLngObj = {lat: 44.265867, lng: -73.976409};
+    contentString = '<div id="content">'+
+      '<div>4 Rustic Way</div>' +
+      '<div>Lake Placid, NY 12946</div>' +
+      '<div><a target="_blank" href="https://www.google.com/maps/dir/Current+Location/ 44.265867,-73.976409">Directions</a></div>' +
+      '</div>';
+  }
   var mapOptions = {
     zoom: 16,
     center: LatLngObj,
