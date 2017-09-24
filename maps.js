@@ -140,14 +140,6 @@ function initialize() {
       '<div><a target="_blank" href="https://www.google.com/maps/dir/Current+Location/44.282313,-73.979047">Directions</a></div>' +
       '</div>';
   }
-  else if (mapCanvas.dataset.map === "spruce-cottage") {
-    LatLngObj = {lat: 44.308283, lng: -74.009827};
-    contentString = '<div id="content">'+
-      '<div>207 Whiteface Inn Ln.</div>' +
-      '<div>Lake Placid, NY 12946</div>' +
-      '<div><a target="_blank" href="https://www.google.com/maps/dir/Current+Location/ 44.308283,-74.009827">Directions</a></div>' +
-      '</div>';
-  }
   else if (mapCanvas.dataset.map === "balsams-townhome-3") {
     LatLngObj = {lat: 44.265867, lng: -73.976409};
     contentString = '<div id="content">'+
