@@ -90,15 +90,6 @@ function initialize() {
       '<div><a target="_blank" href="https://www.google.com/maps/dir/Current+Location/44.279491,-73.979871">Directions</a></div>' +
       '</div>';
   }
-  else if (mapCanvas.dataset.map === "lakeside-9") {
-    LatLngObj = {lat: 44.312937, lng: -74.002791};
-    contentString = '<div id="content">'+
-       '<div>331 Whiteface Inn Ln.</div>' +
-       '<div>Whiteface Club &amp; Resort</div>' +
-      '<div>Lake Placid, NY 12946</div>' +
-      '<div><a target="_blank" href="https://www.google.com/maps/dir/Current+Location/44.312937,-74.002791">Directions</a></div>' +
-      '</div>';
-  }
   else if (mapCanvas.dataset.map === "camp-brady") {
     LatLngObj = {lat: 44.311574, lng: -74.003670};
     contentString = '<div id="content">'+
@@ -176,7 +167,7 @@ function initialize() {
       position: LatLngObj,
       map: map
   });
- 
+
   var infowindow = new google.maps.InfoWindow({
       content: contentString
   });
