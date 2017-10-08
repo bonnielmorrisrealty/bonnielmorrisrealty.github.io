@@ -347,19 +347,16 @@ nav {
 .featured-listing-figcaption > p:nth-child(4) {
   transition-duration: 0.9s
 }
-.featured-listing-figcaption:hover > p:first-child,
-.featured-listing-figcaption:focus > p:first-child {
+.featured-listing-figcaption:hover > p:first-child {
   transform: scale(1);
   -webkit-transform: scale(1);
 }
-.featured-listing-figcaption:hover > p:not(:first-child),
-.featured-listing-figcaption:focus > p:not(:first-child) {
+.featured-listing-figcaption:hover > p:not(:first-child) {
   transform: translateY(0);
   -webkit-transform: translateY(0);
   opacity: 1
 }
-.featured-listing-figcaption:hover,
-.featured-listing-figcaption:focus {
+.featured-listing-figcaption:hover {
   opacity: 1;
   transition: opacity 0.7s ease-in-out
 }
@@ -376,9 +373,7 @@ nav {
   transition: transform 1.5s ease-in-out
 }
 .featured-listing-figcaption:hover::before,
-.featured-listing-figcaption:hover::after,
-.featured-listing-figcaption:focus::before,
-.featured-listing-figcaption:focus::after {
+.featured-listing-figcaption:hover::after {
   -webkit-transform: translateX(-50%) scaleX(1);
   transform: translateX(-50%) scaleX(1);
   transition: transform 1s ease-in-out 0.5s
