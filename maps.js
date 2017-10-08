@@ -152,7 +152,7 @@ function initialize() {
     LatLngObj = {lat: 44.308150, lng: -74.006493};
     contentString = '<div id="content">'+
       '<div>Whiteface Club & Resort</div>' +
-      '<div>8 Spread Eagle Way</div>'
+      '<div>8 Spread Eagle Way</div>' +
       '<div>Lake Placid, NY 12946</div>' +
       '<div><a target="_blank" href="https://www.google.com/maps/dir/Current+Location/ 44.308150,-74.006493">Directions</a></div>' +
       '</div>';
