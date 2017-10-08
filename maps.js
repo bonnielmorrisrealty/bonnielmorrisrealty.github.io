@@ -157,6 +157,15 @@ function initialize() {
       '<div><a target="_blank" href="https://www.google.com/maps/dir/Current+Location/ 44.308150,-74.006493">Directions</a></div>' +
       '</div>';
   }
+  else if (mapCanvas.dataset.map === "brookhill-50") {
+    LatLngObj = {lat: 44.308150, lng: -74.006493};
+    contentString = '<div id="content">'+
+      '<div>Whiteface Club & Resort</div>' +
+      '<div>Brookhill 50</div>' +
+      '<div>Lake Placid, NY 12946</div>' +
+      '<div><a target="_blank" href="https://www.google.com/maps/dir/Current+Location/ 44.308150,-74.006493">Directions</a></div>' +
+      '</div>';
+  }
   var mapOptions = {
     zoom: 16,
     center: LatLngObj,
@@ -177,6 +186,7 @@ function initialize() {
     infowindow.open(map,marker);
   });
 }
-
-google.maps.event.addDomListener(window, 'load', initialize);
+if (mapCanvas != null) {
+  google.maps.event.addDomListener(window, 'load', initialize);
+}
 });
