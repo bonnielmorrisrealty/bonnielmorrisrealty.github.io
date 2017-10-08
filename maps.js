@@ -148,6 +148,15 @@ function initialize() {
       '<div><a target="_blank" href="https://www.google.com/maps/dir/Current+Location/ 44.265867,-73.976409">Directions</a></div>' +
       '</div>';
   }
+  else if (mapCanvas.dataset.map === "graceland-lodge") {
+    LatLngObj = {lat: 44.308150, lng: -74.006493};
+    contentString = '<div id="content">'+
+      '<div>Whiteface Club & Resort</div>' +
+      '<div>8 Spread Eagle Way</div>'
+      '<div>Lake Placid, NY 12946</div>' +
+      '<div><a target="_blank" href="https://www.google.com/maps/dir/Current+Location/ 44.308150,-74.006493">Directions</a></div>' +
+      '</div>';
+  }
   var mapOptions = {
     zoom: 16,
     center: LatLngObj,
