@@ -149,7 +149,7 @@ nav {
 }
 .hero-home {
   background-color: #fff;
-  background: rgba(0,50,64,0.2) url('https://farm4.staticflickr.com/3665/18839893335_0e4a5dcd0d_h.jpg') no-repeat 0 -200px;
+  background: rgba(0,50,64,0.2) url('https://farm5.staticflickr.com/4469/37553854290_ed9ae8c1b6_k.jpg') no-repeat 0 -200px;
   background-attachment: fixed;
   font-family: 'Oswald', sans-serif;
   display: -webkit-flex;
@@ -941,9 +941,9 @@ textarea:focus {
   }
 }
 @media screen and (max-width: 320px) {
-  .hero-home {
+  /*.hero-home {
     background-position: 30% -550px;
-  }
+  }*/
   .primary-header {
     font-size: 1.2em;
     line-height: 1.2;
