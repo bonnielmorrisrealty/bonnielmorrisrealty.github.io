@@ -38,24 +38,6 @@ function initialize() {
       '<div><a target="_blank" href="https://www.google.com/maps/dir/Current+Location/44.311574,-74.003670">Directions</a></div>' +
       '</div>';
   }
-  else if (mapCanvas.dataset.map === "cozy-cone") {
-    LatLngObj = {lat: 44.311758, lng: -74.004124};
-    contentString = '<div id="content">'+
-       '<div>351 Whiteface Inn Lane</div>' +
-      '<div>Whiteface Club &amp; Resort</div>' +
-      '<div>Lake Placid, NY 12946</div>' +
-      '<div><a target="_blank" href="https://www.google.com/maps/dir/Current+Location/44.311758,-74.002847">Directions</a></div>' +
-      '</div>';
-  }
-  else if (mapCanvas.dataset.map === "owls-nest") {
-    LatLngObj = {lat: 44.314559, lng: -74.004940};
-    contentString = '<div id="content">'+
-       '<div>13 Overlook Way</div>' +
-      '<div>Whiteface Club &amp; Resort</div>' +
-      '<div>Lake Placid, NY 12946</div>' +
-      '<div><a target="_blank" href="https://www.google.com/maps/dir/Current+Location/44.314559,-74.004940">Directions</a></div>' +
-      '</div>';
-  }
   else if (mapCanvas.dataset.map === "lakeside-16") {
     LatLngObj = {lat: 44.312425, lng: -74.002874};
     contentString = '<div id="content">'+
