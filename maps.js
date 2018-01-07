@@ -148,6 +148,14 @@ function initialize() {
       '<div><a target="_blank" href="https://www.google.com/maps/dir/Current+Location/ 44.308150,-74.006493">Directions</a></div>' +
       '</div>';
   }
+  else if (mapCanvas.dataset.map === "placid-peaks") {
+    LatLngObj = {lat: 44.281072, lng: -73.987814};
+    contentString = '<div id="content">'+
+      '<div>52 Cummings Rd</div>' +
+      '<div>Lake Placid, NY 12946</div>' +
+      '<div><a target="_blank" href="https://www.google.com/maps/dir/Current+Location/44.281072,-73.987814">Directions</a></div>' +
+      '</div>';
+  }
   var mapOptions = {
     zoom: 16,
     center: LatLngObj,
