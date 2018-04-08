@@ -156,6 +156,15 @@ function initialize() {
       '<div><a rel="noopener" target="_blank" href="https://www.google.com/maps/dir/Current+Location/44.281072,-73.987814">Directions</a></div>' +
       '</div>';
   }
+  else if (mapCanvas.dataset.map === "sandbrook-townhome") {
+    LatLngObj = {lat: 44.310860, lng: -74.004416};
+    contentString = '<div id="content">'+
+      '<div>Whiteface Club & Resort</div>' +
+      '<div>Sandbrook Townhome #14</div>' +
+      '<div>Lake Placid, NY 12946</div>' +
+      '<div><a rel="noopener" target="_blank" href="https://www.google.com/maps/dir/Current+Location/44.310860,-74.004416">Directions</a></div>' +
+      '</div>';
+  }
   var mapOptions = {
     zoom: 16,
     center: LatLngObj,
