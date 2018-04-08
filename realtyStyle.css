@@ -545,7 +545,7 @@ strong {
 .full-size-anchor {
   display: inline-block;
   position: absolute;
-  top: 0;
+  top: -1px;
   right: 0;
   font: 1.2em 'PT Sans', sans-serif;
   color: #fff;
