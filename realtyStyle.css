@@ -54,6 +54,23 @@ button {
 .generic-anchor--darker:focus {
   color: #001b29;
 }
+.generic-anchor--icon {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.generic-anchor--icon:hover .icon-calendar,
+.generic-anchor--icon:focus .icon-calendar {
+  fill: #001b29;
+}
+.icon-calendar {
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+  fill: #003D5C;
+}
 .text-align-center {
   text-align: center;
 }
