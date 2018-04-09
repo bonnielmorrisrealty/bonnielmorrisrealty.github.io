@@ -47,6 +47,13 @@ button {
 .generic-anchor:hover {
   color: #1F6FCE;
 }
+.generic-anchor--darker {
+  color: #003D5C
+}
+.generic-anchor--darker:hover,
+.generic-anchor--darker:focus {
+  color: #001b29;
+}
 .text-align-center {
   text-align: center;
 }
