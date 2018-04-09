@@ -55,8 +55,8 @@ button {
   color: #001b29;
 }
 .generic-anchor--icon {
-  display: -webkit-flex;
-  display: flex;
+  display: -webkit-inline-flex;
+  display: inline-flex;
   -webkit-align-items: center;
   align-items: center;
   margin-top: 10px;
