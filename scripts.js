@@ -6,5 +6,12 @@ $(document).ready(function() {
 			featuredListingFigcaption.addClass("featured-listing-touch");
 			featuredListingFigcaption.find("p").addClass("featured-listing-para-touch")
 		}
+		var date = new Date().getDate()
+		var dateLength = date.toString().length
+		iconDate = document.getElementById('icon-date')
+		iconDate.node.textContent = date
+		if (dateLength === 1) {
+			iconDate.setAttribute("dx", "12")
+		}
 	}());
 });
