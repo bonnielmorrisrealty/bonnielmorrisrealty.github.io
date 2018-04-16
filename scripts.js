@@ -9,7 +9,7 @@ $(document).ready(function() {
 		var date = new Date().getDate()
 		var dateLength = date.toString().length
 		iconDate = document.getElementById('icon-date')
-		iconDate.node.textContent = date
+		iconDate.textContent = date
 		if (dateLength === 1) {
 			iconDate.setAttribute("dx", "12")
 		}
