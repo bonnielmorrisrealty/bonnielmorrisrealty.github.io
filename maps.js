@@ -175,6 +175,15 @@ function initialize() {
       '<div><a rel="noopener" target="_blank" href="https://www.google.com/maps/dir/Current+Location/44.312937,-74.002791">Directions</a></div>' +
       '</div>';
   }
+  else if (mapCanvas.dataset.map === "cervo-lodge") {
+    LatLngObj = {lat: 44.312937, lng: -74.002791};
+    contentString = '<div id="content">'+
+      '<div>Cervo Lodge</div>' +
+      '<div>Liberty Hill</div>' +
+      '<div>Lake Placid, NY 12946</div>' +
+      '<div><a rel="noopener" target="_blank" href="https://www.google.com/maps/dir/Current+Location/44.268560,-73.976880">Directions</a></div>' +
+      '</div>';
+  }
   var mapOptions = {
     zoom: 16,
     center: LatLngObj,
