@@ -193,6 +193,14 @@ function initialize() {
       '<div><a rel="noopener" target="_blank" href="https://www.google.com/maps/dir/Current+Location/44.312425,-74.002874">Directions</a></div>' +
       '</div>';
   }
+  else if (mapCanvas.dataset.map === "sunset-loj") {
+    LatLngObj = {lat: 44.289490, lng: -73.977070};
+    contentString = '<div id="content">'+
+      '<div>37 Garden Way</div>' +
+      '<div>Lake Placid, NY 12946</div>' +
+      '<div><a rel="noopener" target="_blank" href="https://www.google.com/maps/dir/Current+Location/44.289490,-73.977070">Directions</a></div>' +
+      '</div>';
+  }
   var mapOptions = {
     zoom: 16,
     center: LatLngObj,
