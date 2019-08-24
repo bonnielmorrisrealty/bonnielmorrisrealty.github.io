@@ -340,7 +340,7 @@ nav {
   font-size: 1.2em;
   transform: translateY(-100%);
   -webkit-transform: translateY(-100%);
-  opacity: 0;
+  opacity: 0.001;
   transition-delay: 0.3s;
   transition-property: transform, opacity;
   transition-timing-function: ease-in-out
