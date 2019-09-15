@@ -240,4 +240,7 @@ initMap = function() {
     infowindow.open(map,marker);
   });
 }
+if (mapCanvas != null) {
+  google.maps.event.addDomListener(window, 'load', initMap);
+}
 });
