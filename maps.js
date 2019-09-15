@@ -1,6 +1,8 @@
+function initMap() {}
+
 $(document).ready(function() {
   var mapCanvas = document.getElementById('map-canvas');
-function initialize() {
+initMap = function() {
   var LatLngObj;
   var contentString = '';
   if (mapCanvas.dataset.map === "lakeside-29") {
@@ -239,6 +241,6 @@ function initialize() {
   });
 }
 if (mapCanvas != null) {
-  google.maps.event.addDomListener(window, 'load', initialize);
+  google.maps.event.addDomListener(window, 'load', initMap);
 }
 });
