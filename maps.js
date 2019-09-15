@@ -210,6 +210,14 @@ function initialize() {
       '<div><a rel="noopener" target="_blank" href="https://www.google.com/maps/dir/Current+Location/44.291530,-73.989020">Directions</a></div>' +
       '</div>';
   }
+  else if (mapCanvas.dataset.map === "bobsled-lodge") {
+    LatLngObj = {lat: 44.237910, lng: -73.940080};
+    contentString = '<div id="content">'+
+      '<div>61 Coyote Way</div>' +
+      '<div>Lake Placid, NY 12946</div>' +
+      '<div><a rel="noopener" target="_blank" href="https://www.google.com/maps/dir/Current+Location/44.237910,-73.940080">Directions</a></div>' +
+      '</div>';
+  }
   var mapOptions = {
     zoom: 16,
     center: LatLngObj,
