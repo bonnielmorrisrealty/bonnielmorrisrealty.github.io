@@ -220,6 +220,15 @@ initMap = function() {
       '<div><a rel="noopener" target="_blank" href="https://www.google.com/maps/dir/Current+Location/44.237910,-73.940080">Directions</a></div>' +
       '</div>';
   }
+  else if (mapCanvas.dataset.map === "olympic-condo") {
+    LatLngObj = {lat: 44.3119100, lng: -74.006750};
+    contentString = '<div id="content">'+
+      '<div>4 Hemlock Way</div>' +
+      '<div>Whiteface Club Resort</div>' +
+      '<div>Lake Placid, NY 12946</div>' +
+      '<div><a rel="noopener" target="_blank" href="https://www.google.com/maps/dir/Current+Location/44.311910,-74.006750">Directions</a></div>' +
+      '</div>';
+  }
   var mapOptions = {
     zoom: 16,
     center: LatLngObj,
