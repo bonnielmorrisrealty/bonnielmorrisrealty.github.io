@@ -116,6 +116,15 @@ initMap = function() {
       '<div><a rel="noopener" target="_blank" href="https://www.google.com/maps/dir/Current+Location/44.311668,-74.006866">Directions</a></div>' +
       '</div>';
   }
+  else if (mapCanvas.dataset.map === "chillax-lodge") {
+    LatLngObj = {lat: 44.311668, lng: -74.006866};
+    contentString = '<div id="content">'+
+      '<div>Whiteface Club & Resort</div>' +
+      '<div>4 Hemlock Way #6</div>' +
+      '<div>Lake Placid, NY 12946</div>' +
+      '<div><a rel="noopener" target="_blank" href="https://www.google.com/maps/dir/Current+Location/44.311668,-74.006866">Directions</a></div>' +
+      '</div>';
+  }
   else if (mapCanvas.dataset.map === "morning-moose-lodge") {
     LatLngObj = {lat: 44.282313, lng: -73.979047};
     contentString = '<div id="content">'+
