@@ -238,6 +238,15 @@ initMap = function() {
       '<div><a rel="noopener" target="_blank" href="https://www.google.com/maps/dir/Current+Location/44.311910,-74.006750">Directions</a></div>' +
       '</div>';
   }
+  else if (mapCanvas.dataset.map === "morningside-22") {
+    LatLngObj = {lat: 44.282270, lng: -73.979540};
+    contentString = '<div id="content">'+
+      '<div>25 Dunn Way</div>' +
+      '<div>Morningside Townhomes</div>' +
+      '<div>Lake Placid, NY 12946</div>' +
+      '<div><a rel="noopener" target="_blank" href="https://www.google.com/maps/dir/Current+Location/44.282270,-73.979540">Directions</a></div>' +
+      '</div>';
+  }
   var mapOptions = {
     zoom: 16,
     center: LatLngObj,
