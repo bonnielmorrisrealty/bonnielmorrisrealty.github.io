@@ -195,15 +195,6 @@ initMap = function() {
       '<div><a rel="noopener" target="_blank" href="https://www.google.com/maps/dir/Current+Location/44.268560,-73.976880">Directions</a></div>' +
       '</div>';
   }
-  else if (mapCanvas.dataset.map === "lakeside-20") {
-    LatLngObj = {lat: 44.312425, lng: -74.002874};
-    contentString = '<div id="content">'+
-      '<div>339 Whiteface Inn Lane</div>' +
-      '<div>Whiteface Club &amp; Resort</div>' +
-      '<div>Lake Placid, NY 12946</div>' +
-      '<div><a rel="noopener" target="_blank" href="https://www.google.com/maps/dir/Current+Location/44.312425,-74.002874">Directions</a></div>' +
-      '</div>';
-  }
   else if (mapCanvas.dataset.map === "sunset-loj") {
     LatLngObj = {lat: 44.289490, lng: -73.977070};
     contentString = '<div id="content">'+
