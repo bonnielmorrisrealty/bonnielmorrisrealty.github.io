@@ -5,16 +5,7 @@ $(document).ready(function() {
 initMap = function() {
   var LatLngObj;
   var contentString = '';
-  if (mapCanvas.dataset.map === "lakeside-29") {
-    LatLngObj = {lat: 44.312425, lng: -74.002874};
-    contentString = '<div id="content">'+
-      '<div>339 Whiteface Inn Lane</div>' +
-      '<div>Whiteface Club &amp; Resort</div>' +
-      '<div>Lake Placid, NY 12946</div>' +
-      '<div><a rel="noopener" target="_blank" href="https://www.google.com/maps/dir/Current+Location/44.312425,-74.002874">Directions</a></div>' +
-      '</div>';
-  }
-  else if (mapCanvas.dataset.map === "haystack-pines") {
+  if (mapCanvas.dataset.map === "haystack-pines") {
     LatLngObj = {lat: 44.301413, lng: -74.015083};
     contentString = '<div id="content">'+
       '<div>32 Haystack Pines</div>' +
@@ -29,15 +20,6 @@ initMap = function() {
       '<div>Whiteface Club &amp; Resort</div>' +
       '<div>Lake Placid, NY 12946</div>' +
       '<div><a rel="noopener" target="_blank" href="https://www.google.com/maps/dir/Current+Location/44.312351,-74.004124">Directions</a></div>' +
-      '</div>';
-  }
-  else if (mapCanvas.dataset.map === "brookside-cabin") {
-    LatLngObj = {lat: 44.311574, lng: -74.004124};
-    contentString = '<div id="content">'+
-       '<div>352 Whiteface Inn Lane</div>' +
-      '<div>Whiteface Club &amp; Resort</div>' +
-      '<div>Lake Placid, NY 12946</div>' +
-      '<div><a rel="noopener" target="_blank" href="https://www.google.com/maps/dir/Current+Location/44.311574,-74.003670">Directions</a></div>' +
       '</div>';
   }
   else if (mapCanvas.dataset.map === "lakeside-16") {
